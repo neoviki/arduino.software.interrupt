@@ -20,6 +20,7 @@ void setup()
 void loop() {
   Serial.print("Interrupt Counter = ");
   Serial.println(interrupt_counter);
+  delay(1000);
 }
 
 /*Interrupt Service Routine
